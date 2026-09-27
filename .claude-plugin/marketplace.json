@@ -1,0 +1,6 @@
+{
+  "source": "archive",
+  "repo": "https://github.com/android-security-engineer/JustTrustMe-skills",
+  "name": "JustTrustMe-skills",
+  "description": "JustTrustMe Xposed module packaged as an AI-agent skill + plugin: build the APK, inspect the device framework, install/enable the module, and verify hooks — all from an Agent workflow."
+}

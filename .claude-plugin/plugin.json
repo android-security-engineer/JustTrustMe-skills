@@ -1,0 +1,22 @@
+{
+  "name": "justtrustme",
+  "version": "0.3.0",
+  "description": "AI-agent-native Xposed/LSPosed module that disables Android SSL certificate validation and certificate pinning for authorized MITM/security-testing workflows. Bundles build/framework-check/verify scripts and a root SKILL.md.",
+  "author": {
+    "name": "android-security-engineer",
+    "url": "https://github.com/android-security-engineer"
+  },
+  "homepage": "https://github.com/android-security-engineer/JustTrustMe-skills",
+  "repository": "https://github.com/android-security-engineer/JustTrustMe-skills",
+  "license": "Apache-2.0",
+  "keywords": [
+    "android",
+    "xposed",
+    "lsposed",
+    "ssl",
+    "certificate-pinning",
+    "mitm",
+    "security-testing",
+    "skills"
+  ]
+}
