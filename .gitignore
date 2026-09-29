@@ -9,3 +9,5 @@ build/
 /local.properties
 /.idea/workspace.xml
 .DS_Store
+# 局域网/公网服务 URL，避免内网地址泄露到仓库
+/server-url.txt
