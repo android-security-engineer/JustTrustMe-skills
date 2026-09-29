@@ -78,9 +78,9 @@ function ParticleField() {
       <Points positions={positions} stride={3} frustumCulled={false}>
         <pointsMaterial
           size={0.055}
-          color="#5eead4"
+          color="#0d9488"
           transparent
-          opacity={0.5}
+          opacity={0.55}
           sizeAttenuation
           depthWrite={false}
           blending={THREE.AdditiveBlending}
@@ -89,25 +89,25 @@ function ParticleField() {
 
       <mesh ref={ringRef}>
         <torusGeometry args={[2.35, 0.006, 8, 160]} />
-        <meshBasicMaterial color="#5eead4" transparent opacity={0.3} />
+        <meshBasicMaterial color="#0d9488" transparent opacity={0.34} />
       </mesh>
 
       <mesh rotation={[Math.PI / 2.4, 0.6, 0]}>
         <torusGeometry args={[2.75, 0.005, 8, 160]} />
-        <meshBasicMaterial color="#a78bfa" transparent opacity={0.2} />
+        <meshBasicMaterial color="#7c3aed" transparent opacity={0.22} />
       </mesh>
 
       <mesh ref={coreRef}>
         <icosahedronGeometry args={[1.3, 1]} />
-        <meshBasicMaterial color="#5eead4" wireframe transparent opacity={0.3} />
+        <meshBasicMaterial color="#0d9488" wireframe transparent opacity={0.34} />
       </mesh>
 
       <mesh ref={glowRef}>
         <sphereGeometry args={[0.26, 24, 24]} />
-        <meshBasicMaterial color="#4ade80" />
+        <meshBasicMaterial color="#059669" />
       </mesh>
 
-      <pointLight intensity={1.1} distance={12} color="#5eead4" />
+      <pointLight intensity={1.1} distance={12} color="#0d9488" />
     </group>
   )
 }
